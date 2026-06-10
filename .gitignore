@@ -1,0 +1,87 @@
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter Notebook files
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# Large raw / processed data
+# =========================
+data/raw/
+data/processed/
+data/bi_exports/
+
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.zip
+*.rar
+*.7z
+
+# Keep only sample CSV files
+!data/sample/
+!data/sample/*.csv
+
+# Keep README files inside data folders
+!data/README.md
+!data/bi_exports/README.md
+
+# =========================
+# Kaggle / notebook outputs
+# =========================
+kaggle/working/
+*.log
+
+# =========================
+# Power BI temporary files
+# =========================
+*.tmp
+~$*.pbix
+*.pbit.tmp
+
+# Do NOT ignore final PBIX file
+!powerbi/*.pbix
+
+# Keep Power BI theme JSON
+!powerbi/*.json
+
+# Keep dashboard screenshots
+!powerbi/dashboard_screenshots/
+!powerbi/dashboard_screenshots/*.png
+!powerbi/dashboard_screenshots/*.jpg
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
