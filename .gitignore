@@ -27,7 +27,7 @@ data/raw/
 data/processed/
 data/bi_exports/
 
-*.csv
+
 *.parquet
 *.feather
 *.pkl
@@ -35,7 +35,9 @@ data/bi_exports/
 *.rar
 *.7z
 
-
+# Keep only sample CSV files
+!data/sample/
+!data/sample/*.csv
 
 # Keep README files inside data folders
 !data/README.md

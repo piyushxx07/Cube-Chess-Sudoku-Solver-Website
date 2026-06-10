@@ -1,0 +1,7 @@
+month,segment,total_users,total_sessions,total_events,total_views,total_carts,total_purchases,total_revenue,revenue_per_user,sessions_per_user,purchases_per_user,conversion_rate,cart_abandonment_pct
+November,returning,565109,1565392.0,2257069.0,2116110.0,108981.0,31978.0,9549320.59,16.9,2.77,0.06,1.51,70.66
+November,loyal,100515,925523.0,1508017.0,1425119.0,63675.0,19223.0,5620466.64,55.92,9.21,0.19,1.35,69.81
+November,new,934612,934612.0,1220829.0,1152739.0,51372.0,16718.0,5188057.05,5.55,1.0,0.02,1.45,67.46
+October,returning,511246,1404746.0,2234994.0,0.0,0.0,39815.0,11791514.05,23.06,2.75,0.08,0.0,0.0
+October,loyal,87639,819542.0,1489199.0,0.0,0.0,28643.0,9263997.83,105.71,9.35,0.33,0.0,0.0
+October,new,898275,898275.0,1267786.0,0.0,0.0,19041.0,5963476.85,6.64,1.0,0.02,0.0,0.0
